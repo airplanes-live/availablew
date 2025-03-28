@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Availablew",
+	"version": "1.0.0",
+	"description": "Replaces the text availablew with available",
+	"content_scripts":
+	[
+		{
+			"matches": ["https://airplanes.live/getting-started/*"],
+			"js": ["content_script.js"]
+		}
+	]
+}
