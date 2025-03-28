@@ -40,7 +40,7 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bavailablew\b/g, "available");
+	v = v.replace(/\bavailablew\b/g, "availablew");
 
 	textNode.nodeValue = v;
 }
